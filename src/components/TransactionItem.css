@@ -1,0 +1,110 @@
+.transaction-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 0.5px solid #E5E5EA;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  min-height: 76px;
+}
+
+.transaction-item:hover {
+  background-color: #F9F9F9;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.transaction-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.transaction-name {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+  line-height: 1.35;
+  letter-spacing: -0.4px;
+}
+
+.pending-badge {
+  color: #FF3B30;
+  font-weight: 400;
+}
+
+.transaction-description {
+  font-size: 15px;
+  color: #8E8E93;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+}
+
+.transaction-date {
+  font-size: 15px;
+  color: #8E8E93;
+  font-weight: 400;
+  line-height: 1.35;
+  letter-spacing: -0.2px;
+}
+
+.transaction-right {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+.amount-with-percentage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+
+}
+
+.transaction-amount {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.transaction-percentage {
+  padding: 1px 2px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #767676;
+  text-align: right;
+  background-color: #f3f3f3;
+}
+
+.transaction-arrow {
+  font-size: 20px;
+  color: #C7C7CC;
+  font-weight: 300;
+}

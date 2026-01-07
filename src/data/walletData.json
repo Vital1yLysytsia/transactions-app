@@ -1,0 +1,116 @@
+{
+  "cardLimit": 1500,
+  "cardBalance": 17.30,
+  "transactions": [
+    {
+      "id": "1",
+      "type": "credit",
+      "amount": 14.06,
+      "name": "Apple",
+      "description": "Pending - Card Number Used",
+      "authorizedUser": "Diana",
+      "date": "2024-01-06T10:00:00",
+      "status": "pending",
+      "icon": "apple",
+      "percentage": 3
+    },
+    {
+      "id": "2",
+      "type": "payment",
+      "amount": 174.00,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank Natio...",
+      "date": "2024-01-05T14:30:00",
+      "status": "approved",
+      "icon": "wallet"
+    },
+    {
+      "id": "3",
+      "type": "credit",
+      "amount": 3.24,
+      "name": "Apple",
+      "description": "Card Number Used",
+      "authorizedUser": "Diana",
+      "date": "2024-01-02T09:15:00",
+      "status": "approved",
+      "icon": "apple",
+      "percentage": 3
+    },
+    {
+      "id": "4",
+      "type": "payment",
+      "amount": 899.71,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank Natio...",
+      "date": "2023-12-30T11:20:00",
+      "status": "approved",
+      "icon": "wallet"
+    },
+    {
+      "id": "5",
+      "type": "payment",
+      "amount": 73.58,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank Natio...",
+      "date": "2023-12-25T16:45:00",
+      "status": "approved",
+      "icon": "wallet"
+    },
+    {
+      "id": "6",
+      "type": "credit",
+      "amount": 21.61,
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "date": "2022-10-22T13:00:00",
+      "status": "approved",
+      "icon": "store",
+      "percentage": 2
+    },
+    {
+      "id": "7",
+      "type": "credit",
+      "amount": 73.58,
+      "name": "Target",
+      "description": "Cedar Park, TX",
+      "date": "2023-09-15T10:30:00",
+      "status": "approved",
+      "icon": "bullseye",
+      "percentage": 2
+    },
+    {
+      "id": "8",
+      "type": "credit",
+      "amount": 7.50,
+      "name": "Airalo",
+      "description": "Online Payment",
+      "date": "2022-05-26T12:47:00",
+      "status": "approved",
+      "icon": "globe",
+      "cardUsed": "RBC Bank Debit Card"
+    },
+    {
+      "id": "9",
+      "type": "credit",
+      "amount": 12.99,
+      "name": "Netflix",
+      "description": "Monthly Subscription",
+      "date": "2024-01-01T08:00:00",
+      "status": "approved",
+      "icon": "tv"
+    },
+    {
+      "id": "10",
+      "type": "credit",
+      "amount": 45.20,
+      "name": "Amazon",
+      "description": "Online Purchase",
+      "date": "2023-12-28T15:22:00",
+      "status": "approved",
+      "icon": "shopping-cart"
+    }
+  ],
+  "seasonStartDate": "2023-09-01",
+  "dailyPoints": 156000
+}
+
